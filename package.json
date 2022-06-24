@@ -1,0 +1,24 @@
+{
+  "name": "apex-tracker",
+  "version": "1.0.0",
+  "description": "Track stats for Apex Legends",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm run serve --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Nick Lund",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

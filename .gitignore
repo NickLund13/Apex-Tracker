@@ -1,0 +1,3 @@
+node_modules/
+#client
+# he aadded client here for deploying to hiroku because hiroku uses git.
