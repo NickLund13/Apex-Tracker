@@ -1,6 +1,6 @@
 # Apex-Tracker
 
-This app will allow the user to search for a player form the game Apex Legends. If the searched player exsists the app will return information about that player.
+This app will allow the user to search for a player form the game Apex Legends. If the searched player exists the app will return information about that player.
 
 To run the frontend and back end, you can run: 
 ### `npm run dev`
